@@ -1,5 +1,5 @@
 # IntroduccionR
-Demostraciones, ejercicios y un conjunto de datos en español para introducir programación en R. / Demonstrations, exercises and dataset in Spanish to introduce programminng in R.
+Demostraciones, ejercicios y un conjunto de datos en español para presentar programación en R. / Demonstrations, exercises and dataset in Spanish to introduce programminng in R.
 
 zika_guate_2016-30-30.csv: Datos buscando por el Departamento de Epidemiología de Guatemala https://github.com/cdcepi/zika/. / Data from the Guatemala Department of Epidemiology accessed at the followig site https://github.com/cdcepi/zika/.
 
