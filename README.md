@@ -10,3 +10,5 @@ ejercicios1soluciones.R: Soluciones con explicaciones pequeñas por los problema
 
 ejercicios2.R: Más ejercicios desarollando en ejercicios1.R, no se haga sin empezando con ejercicios1.R. / More exercises building on ejercicios1.R, cannot be done without completing ejercicios1.R first.
 ejercicios2soluciones.R: Soluciones con explicaciones pequeñas por los problemas en ejercicios2.R. / Solutions with short explanations for the problems in ejercicios2.R. 
+
+*El español no es mi primera lengua, por favor discúlpeme en advance por algunos errores. 
