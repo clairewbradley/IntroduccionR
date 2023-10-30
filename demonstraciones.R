@@ -3,16 +3,16 @@
 5*7
 
 #### Calculadora con variables y la función suma
-covid_sin_vaccunas <- c(300, 400, 500, 500)
-covid_con_vaccunas <- c(100, 200, 200, 100)
+covid_sin_vacunas <- c(300, 400, 500, 500)
+covid_con_vacunas <- c(100, 200, 200, 100)
 
-covid_sin_vaccunas + covid_con_vaccunas
-sum(covid_sin_vaccunas)
-sum(covid_con_vaccunas)
+covid_sin_vacunas + covid_con_vacunas
+sum(covid_sin_vacunas)
+sum(covid_con_vacunas)
 
 #### No podemos combinar tipos de datos
 covid_regiones <- c("Guatemala", "El Salvador", "Honduras", "Costa Rica")
-covid_regiones + covid_sin_vaccunas
+covid_regiones + covid_sin_vacunas
 
 #### "<-" versus "="
 gato <- "gato" # La cosa que está creyendo en la izquierda y los compuestos en la derecha
@@ -22,17 +22,17 @@ perro = "perro"
 5 > 4 
 4 > 5
 5 == 5
-covid_sin_vaccunas == covid_con_vaccunas
-covid_sin_vaccunas > covid_con_vaccunas
+covid_sin_vacunas == covid_con_vacunas
+covid_sin_vacunas > covid_con_vacunas
 
 #### Vectores -- una columna o un tipo/grupo de datos
-covid_con_vaccunas <- c(100, 200, 200, 100)
+covid_con_vacunas <- c(100, 200, 200, 100)
 covid_regiones <- c("Guatemala", "El Salvador", "Honduras", "Costa Rica")
 
 #### Dataframe -- multiples vectores, parece una tabla de Excel 
 covid <- data.frame(covid_regiones,
-                    covid_con_vaccunas, 
-                       covid_sin_vaccunas)
+                    covid_con_vacunas, 
+                       covid_sin_vacunas)
 names(covid) <- c("pais", "conV", "sinV")
 
 #### Listas -- multiples dataframes
